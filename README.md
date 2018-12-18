@@ -1,6 +1,10 @@
 # dpkg-benchmark
 A set of scripts to benchmark package installation in different conditions. It uses `force-unsafe-io` option and libeatmydata
-to gain more speed from dpkg.
+to gain more speed from dpkg. It is suitable both for HDD and SSD (supports TRIM).
+
+Generates a pretty graph showing the amount of time needed for packages to be installed (in seconds).
+
+![screenshot](plot-example-hdd.svg)
 
 
 ## Installation
